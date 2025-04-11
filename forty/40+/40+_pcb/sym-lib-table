@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "C:/Users/natha/Desktop/Projects/input-peripherals/_kicad-components/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+)
