@@ -4,3 +4,9 @@
 [submodule "_kicad-components/MX_V2"]
 	path = _kicad-components/MX_V2
 	url = https://github.com/ai03-2725/MX_V2/
+[submodule "_firmware-builder/zmk-config"]
+	path = _firmware-builder/zmk-config
+	url = https://github.com/nzge/zmk-config
+[submodule "_firmware-builder/qmk_firmware"]
+	path = _firmware-builder/qmk_firmware
+	url = https://github.com/nzge/qmk_firmware
