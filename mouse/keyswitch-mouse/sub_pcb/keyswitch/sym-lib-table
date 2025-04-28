@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ScottoKeebs")(type "KiCad")(uri "C:/Users/Nathan/Desktop/Personal_Projects/input-peripherals/_kicad-components/ScottoKicad/symbols/ScottoKeebs.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "C:/Users/Nathan/Desktop/Personal_Projects/input-peripherals/_kicad-components/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
+)
