@@ -1,0 +1,126 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mils",
+    "date": "2025-11-11T09:56:29-0800",
+    "kicad_version": "9.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/4d9522f9-690f-4b29-b80a-2f0f57200d3b",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 25.0,
+                                "y": 13.5
+                            },
+                            "uuid": "dbd96abc-163c-44cd-a0ca-e6919277b879"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 33.0,
+                                "y": 11.5
+                            },
+                            "uuid": "70f289dd-2e8f-4d49-90e2-265ec649355b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 31.0,
+                                "y": 16.5
+                            },
+                            "uuid": "70a51e8f-0b9d-477e-9f14-b3d9f2ffda12"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol ANT2 Pin 1 [FEED1, Unspecified, Line]",
+                            "pos": {
+                                "x": 55.0,
+                                "y": 58.0
+                            },
+                            "uuid": "15ba3b9e-326a-48cb-9c59-b0a18d4c7de7"
+                        },
+                        {
+                            "description": "Symbol C8 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 62.5,
+                                "y": 56.0
+                            },
+                            "uuid": "f686acd6-4c47-4e01-bfbf-b9767a70c8c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol ANT2 Pin 2 [FEED2, Unspecified, Line]",
+                            "pos": {
+                                "x": 55.0,
+                                "y": 59.0
+                            },
+                            "uuid": "7533dcf5-17d4-4011-afe4-e4683043da30"
+                        },
+                        {
+                            "description": "Symbol #PWR019 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 54.0,
+                                "y": 61.5
+                            },
+                            "uuid": "66227752-a963-4d44-85d0-28117a1a876c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'antenna'",
+                    "items": [
+                        {
+                            "description": "Symbol ANT2 [2450AT43B100E]",
+                            "pos": {
+                                "x": 58.0,
+                                "y": 59.5
+                            },
+                            "uuid": "aad3fe66-d066-45d2-bbf6-7b944541786c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/key-matrix/",
+            "uuid_path": "/4d9522f9-690f-4b29-b80a-2f0f57200d3b/848754b2-70ca-44aa-9055-952c9f9a97d9",
+            "violations": []
+        }
+    ],
+    "source": "40+_pcb.kicad_sch"
+}
